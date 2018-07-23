@@ -6,7 +6,7 @@ import (
 	"google.golang.org/grpc"
 	"log"
 	"net"
-	"github.com/sha1n/grpc-test/echo"
+	"github.com/sha1n/grpc-echo-service/echo"
 )
 
 type server struct{}

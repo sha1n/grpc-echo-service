@@ -2,11 +2,11 @@ package main
 
 import (
 	"context"
-	"github.com/sha1n/grpc-test/server"
+	"github.com/sha1n/grpc-echo-service/server"
 	"google.golang.org/grpc"
 	"log"
 	"time"
-	"github.com/sha1n/grpc-test/echo"
+	"github.com/sha1n/grpc-echo-service/echo"
 )
 
 const address = "localhost:50051"
