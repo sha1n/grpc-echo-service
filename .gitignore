@@ -1,9 +1,10 @@
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
+# bins and deps
+vendor
+bin
+build
+
+# generated
+gen
 
 # Test binary, build with `go test -c`
 *.test

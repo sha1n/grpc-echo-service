@@ -3,10 +3,10 @@ package server
 import (
 	"context"
 	"fmt"
+	"github.com/sha1n/grpc-echo-service/gen/echo"
 	"google.golang.org/grpc"
 	"log"
 	"net"
-	"github.com/sha1n/grpc-echo-service/echo"
 )
 
 type server struct{}
